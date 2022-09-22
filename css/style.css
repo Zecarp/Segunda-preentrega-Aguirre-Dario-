@@ -1,0 +1,250 @@
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*estilos generales*/
+body {
+    background-color: #fc9aad;
+}
+header {
+    
+    display: none;
+}
+.footer-indexx {
+    display: none;
+}
+/*media queris*/
+@media screen and (min-width:600px){
+    header {
+        display: block;
+    }
+    .footer-indexx {
+        display: block;
+    }
+} 
+
+
+/* estilos de header */
+
+header h1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center ;
+    font-size: 3rem;
+    background-color:#fc9aad;
+}
+/*estilos de body*/
+
+header nav {
+    display: flex;
+}
+
+.ftormao-ul ol {
+    display: flex;
+    gap: 5px;
+}
+
+
+
+.menu-expandido ul ol li a{
+    text-decoration: none;
+    color: rgb(246, 246, 250);
+}
+.menu-expandido ul ol li {
+    display: flex;
+    list-style: none;
+    background-color: #EE6983 ;
+    padding: 15px;
+    border-radius:20px;
+    box-shadow: 2px 2px 5px;
+    margin-top: 30px;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    margin: 30px;
+    padding: 30px;
+
+}
+
+main h2 {
+    text-align: center;
+    font-family:cursive;
+    color: #EE6983;   
+}
+
+.main-home {
+text-align: center;
+}
+
+.main-home div {
+    background-color:white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pepe {
+    margin-top: 50px;
+    border-radius: 100px;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:#fc9aad;
+    font-size: 1rem;
+    justify-content:space-around;
+    height: 2rem;
+    text-align: center; 
+}
+
+.h2-fooster {
+    display: flex;
+    color: white;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;   
+}
+
+.precio {
+    text-align: center;
+    color: #0e0c0d;
+    font-size:1rem;
+   
+    
+}
+
+main img {
+    width: 60%;
+}
+
+.whatss-face {
+    display: flex;
+    width: 10%;
+}
+.productos-style {
+
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #FFC4C4;
+    align-items: center;
+}
+
+.productos-style div {
+    /*
+    display: flex;
+    flex-direction: column;
+    */
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: auto;
+    width: 80%;
+    align-items: center;
+    gap: 5px;
+}
+
+.propiedades-grids {
+
+    padding: 1rem;
+    background-color: #EE6983;
+    justify-items: center;  
+    display: grid;
+    grid-template-columns:repeat(2, 2fr ) ;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "grid-productos0 grid-productos1"
+    "grid-productos0 grid-productos2"
+    "grid-productos0 grid-productos3"
+    "grid-productos0 grid-productos4"
+    "grid-productos0 grid-productos5"
+    "grid-productos0 grid-productos6";
+     justify-content: center;
+     justify-items: center;
+}
+.propiedades-grids .grid-productos0 {
+    grid-area: grid-productos0; 
+    background-color: #FFC4C4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+.propiedades-grids .grid-productos1 {
+grid-area: grid-productos1;
+display: flex;
+flex-direction: column;
+padding: 1rem;
+align-items: center;
+
+} 
+.propiedades-grids .grid-productos2 {
+grid-area: grid-productos2;
+display: flex;
+flex-direction: column;
+padding: 1rem;
+align-items: end;
+}
+.propiedades-grids .grid-productos3 {
+grid-area: grid-productos3;
+display: flex;
+flex-direction: column;
+padding: 1rem;
+align-items: center;
+}
+.propiedades-grids .grid-productos4 {
+grid-area: grid-productos4;
+display: flex;
+flex-direction: column;
+padding: 1rem;
+align-items: center;
+}
+.propiedades-grids .grid-productos5 {
+grid-area: grid-productos5;
+display: flex;
+flex-direction: column;
+padding: 1rem;
+align-items: center;
+}
+.propiedades-grids .grid-productos6 {
+ grid-area: grid-productos6;  
+ display: flex;
+ flex-direction: column;
+ padding: 1rem;
+ align-items: center;
+}
+
+
+/*
+.grid-navimg {
+    justify-self: end;
+    background-color: black;
+    align-self: end;
+}
+*/
+
+
+
+
+
+
+
+
+
+
